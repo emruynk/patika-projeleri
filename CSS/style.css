@@ -1,0 +1,28 @@
+/****************Başlık********************/
+h1{
+    font-size: xx-large;
+    color: blue;
+    text-align: center;
+}
+/***************Nav***********************/
+
+div{
+    font-size: medium;
+    text-align: center;
+}
+
+h2{
+    color: chocolate;
+    text-align: center;
+}
+
+/****************Maddeller*************/
+
+ul,ol{
+    text-align: center;
+    list-style-position:inside;
+}
+
+h3{
+    color: darkblue;
+}
