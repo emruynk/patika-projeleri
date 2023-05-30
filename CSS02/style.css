@@ -1,0 +1,42 @@
+.google {
+    padding-top: 100px;
+    padding-left: 375px;
+}
+
+.p {
+    background-color: rgb(226, 219, 219);
+    padding-left: 45%;
+    width: 8000px;
+    height: 100px;
+    font-size: large;
+}
+
+.kutu1 {
+    background-color: rgb(52, 229, 194);
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin-right: 2px;
+}
+
+.kutu2 {
+    background-color: rgb(28, 178, 145);
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    float: left;   
+}
+
+.kutu3 {
+    background-color: rgb(79, 232, 222);
+    width: 39.7%;
+    height: 100px;
+    text-align: center;
+    float:right;  
+}
+
+.footer{
+margin-top: 7%;
+padding-left:45%;
+}
