@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,99 +8,74 @@
     <title>Deneme</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="kutu1">
-        <h1>
-            Freelancer
-        </h1>
-        <p>
-            The essentials to provide your best work for clients.
-        </p>
-        <h2>
-            $15/month
-        </h2>
-        <button class="buton-1">
-            Buy Plan
-        </button>
-        <ul>
-            <li>
-                5 products
-            </li>
-            <li>
-                Up to 1,000 subcribers
-            </li>
-            <li>
-                Basic analytics
-            </li>
-            <li>
-                48-hour support response time
-            </li>
-        </ul>
-    </div>
-    <div class="kutu2">
-        <h1>
-            Startup
-        </h1>
-        <p>
-            A plan that scales with your rapidly growing businnes.
-        </p>
-        <h2>
-            $30/month
-        </h2>
-        <button class="buton-2">
-            Buy Plan
-        </button>
-        <ul>
-            <li>
-                25 products
-            </li>
-            <li>
-                Up to 10,000 subscribers
-            </li>
-            <li>
-                Advanced analytics
-            </li>
-            <li>
-                24-hour support response time
-            </li>
-            <li>
-                Marketing automations
-            </li>
-        </ul>        
-    </div>
-    <div class="kutu3">
-        <h1>
-            Enterprise
-        </h1>
-        <p>
-            Dedicated support and infrastructure for your company
-        </p>
-        <h2>
-            $60/month
-        </h2>
-        <button class="buton-3">
-            Buy plan
-        </button>
-        <ul>
-            <li>
-                Unlimited products
-            </li>
-            <li>
-                Unlimited subscribers
-            </li>
-            <li>
-                Advanced analytics
-            </li>
-            <li>
-                1-hour, dedicated support response time
-            </li>
-            <li>
-                Marketing autpmations
-            </li>
-            <li>
-                Custom reporting tools
-            </li>
-        </ul>
+    <div class="container">
+        <div class="box">
+            <h3>Freelancer</h3>
+            <p class="subtitle">The essentials to provide yout best work for clients.</p>
+            <p class="price">
+                <span class="bold-text">$15</span>/month
+            </p>
+            <button class="btn">Buy Plan</button>
+            <ul class="liste">
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    5 products</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Up to 1,000 subscribers</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Basic analytics</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    48-hour support response time </li>
+            </ul>
+        </div>
+        <div class="box" id="most-popular" >
+            <div class="btn1">
+                <h3>Startup</h3>
+                <button id="popular-buton">Most popular</button>
+            </div>
+            <p class="subtitle">A plan that scales with your rapidly growing bussiness.</p>
+            <p class="price">
+                <span class="bold-text">$30</span>/month
+            </p>
+            <button class="btn" id="btn2">Buy Plan</button>
+            <ul class="liste">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    25 products</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Up to 1,0000 subscribers</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Advanced analytics</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    24-hour support response time </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Marketing automations</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Enterprise</h3>
+            <p class="subtitle">Dedicated support and infrastructure for youre company</p>
+            <p class="price">
+                <span class="bold-text">60$</span>/month
+            </p>
+            <button class="btn">Buy Plan</button>
+            <ul class="liste">
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Unlimited products</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Unlimited subscribers</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Advanced analytics</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    1-hour dedicated support response time </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Marketing automarions</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="blue" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                    Custom reporting tools</li>
+            </ul>
+        </div>
     </div>
 </body>
+
 </html>

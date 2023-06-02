@@ -1,53 +1,86 @@
-.kutu1{
-background-color:aliceblue;
-margin-left: 120px;
-margin-top: 150px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 85px;
-padding-top: 30px;
-float: left;
-border-radius: 20px;
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style-type:none;
 }
 
-.kutu2{
-background-color:aliceblue;
-margin-left: 50px;
-margin-top: 150px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 65px;
-padding-top: 30px;
-float: left;
-border-radius: 20px;
+body{
+font-family:  "Helvetica", sans-serif;
 }
 
-.kutu3{
-background-color:aliceblue;
-margin-left: 50px;
-margin-top: 150px;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 30px;
-padding-bottom: 50px;
-float: left;
-border-radius: 20px;
+.container{
+display:flex;
+justify-content: center;
+background-color:#FFFF ;
+flex-wrap: wrap;
 }
 
-.buton-1{
-margin-right: 50px;
-margin-left: 50px;
-width: 200px;
-}
-
-.buton-2{
-margin-right: 50px;
-margin-left: 50px;
+.box{
+border: 1px solid #e5e7eb;
+padding: 40px;
+margin: 10px;
+border-radius: 15px;
 width: 300px;
 }
 
-.buton-3{
-margin-right: 50px;
-margin-left: 50px;
-width: 300px;
+.subtitle{
+margin-top: 16px;
+}
+
+.price{
+margin-top: 24px;
+}
+
+.btn{
+border: 1px solid #A5B4FC;
+border-radius: 5px;
+margin-top: 24px;
+padding: 12px 0px;
+background-color: white;
+width:100%;
+color: blue;
+}
+
+#btn2{
+background-color: #4F46E5;
+color: white;
+}
+
+.liste{
+margin-top: 32px;
+}
+
+.bold-text{
+font-size: 30px;
+font-weight: 800;
+}
+
+.btn1{
+display: flex;
+justify-content: space-between;
+}
+
+#popular-buton{
+border: none;
+border-radius:15px ;
+background-color: #EDECFC;
+padding: 10px;
+color: #4F46E5;
+}
+
+#most-popular{
+border-color: #4F46E5;
+}
+
+#most-popular h3{
+color: #4F46E5;
+}
+
+.box ul li{
+margin-top: 12px;
+}
+
+.box ul li svg{
+margin-right: 5px;
 }
